@@ -1,0 +1,68 @@
+Command: find
+Name: GNU find
+
+Description:
+    Short: "search for files in a directory hierarchy"
+    Short source: "https://www.gnu.org/software/findutils"
+    Long: "In Unix-like and some other operating systems, find is a command-line utility that locates files based on some user-specified criteria and either prints the pathname of each matched object or, if another action is requested, performs that action on each matched object."
+    Long source: "https://en.wikipedia.org/wiki/Find_(Unix)"
+
+Meta:
+    Homepage: "https://www.gnu.org/software/findutils/"
+    Developer: "GNU"
+    Package: "findutils"
+    License: null
+    Language: null
+    Year released: null
+
+About:
+
+    Tasks: 
+       - "search"
+       - "find"
+    
+    Tags:
+       - "files"
+       - "filenames"
+       
+    
+    Good for:
+    - Search files by attributes (name, metadata, location, size etc)
+    - complicated searches
+    - execute task on results (using `exec`)
+    
+    Not good for:
+    - Searching file contents
+    - Quickly finding files in large sets
+
+Other tools:
+
+    Similar:
+    - fd
+    - ag
+    - fzf
+    - tree
+    - ls 
+    - locate
+    
+    Works with:
+    - xargs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
