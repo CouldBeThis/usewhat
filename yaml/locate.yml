@@ -1,0 +1,70 @@
+Command: locate
+Name: GNU locate
+
+Description:
+    Short: "list files in databases that match a pattern"
+    Short source: "https://www.gnu.org/software/findutils"
+    Long: "The locate program scans one or more databases of filenames and displays any matches. This can be used as a very fast find command if the file was present during the last file name database update."
+    Long source: "https://www.gnu.org/software/findutils"
+
+Meta:
+    Homepage: "https://www.gnu.org/software/findutils/"
+    Developer: "GNU"
+    Package: "findutils"
+    License: GPLv3+: GNU GPL version 3 or later
+    Language: null
+    Year released: "1982"
+
+About:
+
+    Tasks: 
+       - "search"
+       - "find"
+    
+    Tags:
+       - "files"
+       - "filenames"
+       - "filesystem"
+    
+    Good for:
+    - Search files by name
+    - Speed
+    - Regular expressions (regex)
+    
+    Not good for:
+    - Searching file contents
+    - Recently updated files (database is updated on a cron schedule)
+
+Other tools:
+
+    Similar:
+    - fd
+    - ag
+    - fzf
+    - tree
+    - ls 
+    - locate
+    - mlocate
+    - slocate
+    
+    Works with:
+    - updatedb
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

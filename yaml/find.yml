@@ -24,12 +24,12 @@ About:
     Tags:
        - "files"
        - "filenames"
-       
     
     Good for:
     - Search files by attributes (name, metadata, location, size etc)
     - complicated searches
     - execute task on results (using `exec`)
+    - Regular expressions (regex)
     
     Not good for:
     - Searching file contents
