@@ -68,6 +68,9 @@ To test this concept, do a set of search and finding tools
 -[ ] ls 
 - locate
 - grep (egrep, etc)
+
+ - [] Checkbox not checked
+ - [X] Checkbox checked
 	
 other tools which will be excluded from the small text batch:
 
