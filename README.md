@@ -1,6 +1,8 @@
-# usewhat
+# `usewhat`: what application or tool should I use to do this command line task?
 
-## goals
+Right now, this file is a sort of brainstorm although I am aware that ultimately this is not the purpose of a readme. 
+
+## goal
 
 This is a start of a project intended to aosle a problem I have still after quite a long time of using the command line:
 
@@ -21,9 +23,35 @@ This is a start of a project intended to aosle a problem I have still after quit
 	
 * **look in your history file** - once you have done something a bunch, assuming you have continuous access to the same history file and you can recall enough context, it *is* useful. If these conditions are not met it becomes difficult or impossible. Additionally it relies on having strong command of search tools to sift through it, and search tools are a category I find very confusing to remember about. 
 	
-* **`apropos`** - GNU's is to my knowledge the only existing attempt to fill this need. I have not found it useful when I've tried it because it only tells you about GNU tools and because the information it spits out seems to be automatically collected from various sources without any editing. My attempts at using it have filled the screen with lots of junk. This project seeks to be more careful and concise. 
+* **`apropos`** - a component of GNU's [https://www.gnu.org/software/gnuit/](`gnuit`) is to my knowledge the primary existing attempt to fill this need. I have not found it useful when I've tried it  because the information it spits out seems to be automatically collected from various sources without any editing. My attempts at using it have filled the screen with lots of junk. This project seeks to be more careful and concise. There is a package called [`apropos2`](http://www.georgeanelson.com/apropos2.htm) which honestly I haven't tried as like the original I don't think it has been updated in quite a while. 
 
-to answer the question: what application or tool should I use to do this command line task?
+## test of concept
+
+### file format for data storage
+
+Since I don't know how to do anything, I will try with a few files to see if I can figure out how to make them work. I am thinking to use `yaml` to store the data. I have use `yaml` before and it is reasonably useful. It will be easier for me to manage than alternatives I considered
+
+* overkill formats I decided against: `xml`, `json` and `mysql`. these offer too many opprotunities to foul things up and get lost in the weeds. 
+
+* formats that are too simple for my needs: `text`, `markdown` (used by `tldr.sh`), `csv`. 
+
+### data structure
+
+looking at `tldr.sh` I see they have every application as its own file. I think there are advantages to this rather than one large file, especially for managing in a git repo. 
+
+* Easy to see what is available
+
+* Easy to track changes
+
+* compatible with `yaml` file format
+
+* would allow specilized collections of tools for uncommon use cases to be added modularly
+
+* since there are so many thousands of applications and I am thinking to keep the scope narrow, there could be different ideas about what to include; this would allow additional packages of files for those who want them, or fewer for those who want the basics
+
+* could be used to make a web interface using a static site generator like `hugo`
+
+As to the internal structure of the file, I plan on developing it as I go 
 
 To test this concept, do a set of search and finding tools
 
