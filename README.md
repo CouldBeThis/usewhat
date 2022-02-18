@@ -61,28 +61,26 @@ At the moment I am thinking of using `ugrep` to do the actual work though that m
 
 To test this concept, do a set of search and finding tools
 
-- fd
-- ag
-- fzf
-- tree
--[ ] ls 
-- locate
-- grep (egrep, etc)
+- [X] `find`
+- [ ] `fd`
+- [ ] `ag`
+- [ ] `fzf`
+- [ ] `tree`
+- [x] `ls` 
+- [ ] `locate`
+- [ ] `grep` (`egrep`, etc)
 
- - [] Checkbox not checked
- - [X] Checkbox checked
 	
-other tools which will be excluded from the small text batch:
-
-- awk
-- sed
-- up
-- percol
-- rg
-- ack
-- pdfgrep
+other tools which will be excluded from the small text batch: `awk`, `sed`, `up`, `percol`, `rg`, `ack`, `pdfgrep`
 
 And to make sure it will make sense outside a single category I will do approximately 6 more of other sorts of tools which are tbd. 
+
+ - [ ] ? unknown #1
+ - [ ] ? unknown #2
+ - [ ] ? unknown #3
+ - [ ] ? unknown #4
+ - [ ] ? unknown #5
+ - [ ] ? unknown #6
 	
 
 resources: 
