@@ -25,7 +25,7 @@ This is a start of a project intended to aosle a problem I have still after quit
 	
 * **`apropos`** - a component of GNU's [https://www.gnu.org/software/gnuit/](`gnuit`) is to my knowledge the primary existing attempt to fill this need. I have not found it useful when I've tried it  because the information it spits out seems to be automatically collected from various sources without any editing. My attempts at using it have filled the screen with lots of junk. This project seeks to be more careful and concise. There is a package called [`apropos2`](http://www.georgeanelson.com/apropos2.htm) which honestly I haven't tried as like the original I don't think it has been updated in quite a while. 
 
-## test of concept
+## how it could be done
 
 ### file format for data storage
 
@@ -35,7 +35,7 @@ Since I don't know how to do anything, I will try with a few files to see if I c
 
 * formats that are too simple for my needs: `text`, `markdown` (used by `tldr.sh`), `csv`. 
 
-### data structure
+### approximate data structure
 
 looking at `tldr.sh` I see they have every application as its own file. I think there are advantages to this rather than one large file, especially for managing in a git repo. 
 
@@ -51,7 +51,13 @@ looking at `tldr.sh` I see they have every application as its own file. I think 
 
 * could be used to make a web interface using a static site generator like `hugo`
 
-As to the internal structure of the file, I plan on developing it as I go 
+As to the internal structure of the file, I plan on developing it as I go, iterating it slightly with each file and then after about a dozen or so, have a good plan as to what is required and what makes sense. 
+
+### querying from the terminal 
+
+At the moment I am thinking of using `ugrep` to do the actual work though that might change. There are a few different ways of directly accessing `yaml` files but then there would also be the option of converting them into something else for terminal use. 
+
+## test of concept
 
 To test this concept, do a set of search and finding tools
 
@@ -59,11 +65,11 @@ To test this concept, do a set of search and finding tools
 - ag
 - fzf
 - tree
-- ls 
+-[ ] ls 
 - locate
 - grep (egrep, etc)
 	
-maybe:
+other tools which will be excluded from the small text batch:
 
 - awk
 - sed
@@ -71,10 +77,9 @@ maybe:
 - percol
 - rg
 - ack
-
-specialized finding tools:
-
 - pdfgrep
+
+And to make sure it will make sense outside a single category I will do approximately 6 more of other sorts of tools which are tbd. 
 	
 
 resources: 
