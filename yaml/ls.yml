@@ -1,0 +1,71 @@
+Command: ls
+Name: ls
+
+Description:
+    Short: "list directory contents"
+    Short source: "https://www.mankier.com/1/ls"
+    #Long: "The locate program scans one or more databases of filenames and displays any matches. This can be used as a very fast find command if the file was present during the last file name database update."
+    #Long source: "https://www.gnu.org/software/findutils"
+
+Meta:
+    #Homepage: "https://www.gnu.org/software/coreutils/manual/html_node/ls-invocation.html"
+    Developer: "GNU"
+    Package: "coreutils"
+    License: GPLv3+: GNU GPL version 3 or later
+    #Language: null
+    Year released: "1987"
+
+About:
+
+    Tasks: 
+       #- "search"
+       - "find"
+       - "list"
+    
+    Tags:
+       - "files"
+       - "filenames"
+       - "filesystem"
+    
+    Good for:
+    - "Listing all the files in a directory"
+    - "Use `-R` to list files recursively"
+    - "Pipe results through tools that manipulate text (`grep`, `sed`) to filter"
+    - "Use `xargs` to perform manipulations on the results"
+    - Sorting files by their attributes
+    - Listing file attributes
+    
+    Not good for:
+    - Searching file contents
+    - Standalone use for anything but very simple tasks
+
+Other tools:
+
+    Similar:
+    - exa
+    - tree
+    
+    Works with:
+    - grep
+    - sed
+    - xargs
+
+References:
+    #- https://superuser.com/questions/199472/what-is-the-difference-between-locate-and-find-in-linux
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

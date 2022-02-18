@@ -33,6 +33,7 @@ About:
     
     Not good for:
     - Searching file contents
+    - Searching by metadata
     - Recently updated files (database is updated on a cron schedule)
 
 Other tools:
@@ -43,14 +44,14 @@ Other tools:
     - fzf
     - tree
     - ls 
-    - locate
     - mlocate
     - slocate
     
     Works with:
     - updatedb
 
-
+References:
+    - https://superuser.com/questions/199472/what-is-the-difference-between-locate-and-find-in-linux
 
 
 
