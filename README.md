@@ -4,10 +4,12 @@
 
 This is a start of a project intended to aosle a problem I have still after quite a long time of using the command line:
 
-	* There are an overwhelming number of command line tools
-	* Many of them do similar things slightly differently
-	* It's difficult to remember which tool to use in which situation
-	* 
+* There are an overwhelming number of command line tools
+	
+* Many of them do similar things slightly differently
+
+* It's difficult to remember which tool to use in which situation
+ 
 
 ## other ways to solve the problem that don't work for me
 
