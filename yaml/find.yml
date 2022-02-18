@@ -26,14 +26,15 @@ About:
        - "filenames"
     
     Good for:
-    - Search files by attributes (name, metadata, location, size etc)
-    - complicated searches
-    - execute task on results (using `exec`)
-    - Regular expressions (regex)
+    - "Search files by attributes (name, metadata, location, size etc)"
+    - "complicated searches"
+    - "execute task on results (using `exec`)"
+    - "Regular expressions (regex)"
     
     Not good for:
-    - Searching file contents
-    - Quickly finding files in large sets
+    - "Searching file contents"
+    - "Quickly finding files in large sets"
+    - "You want it to know about .gitignores or other conventions"
 
 Other tools:
 
