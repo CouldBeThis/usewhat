@@ -53,6 +53,12 @@ looking at `tldr.sh` I see they have every application as its own file. I think 
 
 As to the internal structure of the file, I plan on developing it as I go, iterating it slightly with each file and then after about a dozen or so, have a good plan as to what is required and what makes sense. 
 
+### TODO: decide on a minimal number of feilds to be filled in order for a program's file to be included
+
+I have included in the draft `yaml` structure so far a fairly comprehensive (if basic) structure for the data. But in order to be useful they need not all be filled. For example I have included programing language because it if relevant for some use cases but it is not really *Required*. In fact it might be useful to concentrate on having the list of programs be "complete" rather than every item being fully informed. This would at least let the user having a starting point for their documentation/web search if nothing else. 
+
+Especially if included was an easy way to make contributions back to the repo; so information could be added as people are going along their way. 
+
 ### querying from the terminal 
 
 At the moment I am thinking of using `ugrep` to do the actual work though that might change. There are a few different ways of directly accessing `yaml` files but then there would also be the option of converting them into something else for terminal use. 
@@ -95,6 +101,13 @@ And to make sure it will make sense outside a single category I will do approxim
  * help (`tldr`-like)
  * the basic text manipulation tools (`cut` etc)
  * tools that are modern replacements for classics (`bat` for `cat` etc)
+ * shells - might be too complicated
+ * in-shell features (can't recall the name for these) like `>`, `tee` etc
+ * file/directory watching utilities (`inotify`)
+
+## categories it might make sense to skip for now
+
+ * VCS and realted (eg `git` and the thounsads of tools that have been created for it)
 
 
 # resources: 
