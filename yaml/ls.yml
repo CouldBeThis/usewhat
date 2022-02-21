@@ -4,15 +4,15 @@ Name: ls
 Description:
     Short: "list directory contents"
     Short source: "https://www.mankier.com/1/ls"
-    #Long: "The locate program scans one or more databases of filenames and displays any matches. This can be used as a very fast find command if the file was present during the last file name database update."
-    #Long source: "https://www.gnu.org/software/findutils"
+    Long: "The ls program lists information about files (of any type, including directories)."
+    #Long source: "https://www.gnu.org/software/coreutils/manual/html_node/ls-invocation.html#ls-invocation"
 
 Meta:
-    #Homepage: "https://www.gnu.org/software/coreutils/manual/html_node/ls-invocation.html"
+    Homepage: "https://www.gnu.org/software/coreutils/manual/html_node/ls-invocation.html"
     Developer: "GNU"
     Package: "coreutils"
     License: GPLv3+: GNU GPL version 3 or later
-    #Language: null
+    Language: null
     Year released: "1987"
 
 About:
@@ -51,7 +51,7 @@ Other tools:
     - xargs
 
 References:
-    #- https://superuser.com/questions/199472/what-is-the-difference-between-locate-and-find-in-linux
+    - null
 
 
 
