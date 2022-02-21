@@ -73,7 +73,7 @@ To test this concept, do a set of search and finding tools
 	
 other tools which will be excluded from the small text batch: `awk`, `sed`, `up`, `percol`, `rg`, `ack`, `pdfgrep`
 
-And to make sure it will make sense outside a single category I will do approximately 6 more of other sorts of tools which are tbd. 
+And to make sure it will make sense outside a single category I will do approximately 6 more of other sorts of tools which are tbd.  
 
  - [ ] ? unknown #1
  - [ ] ? unknown #2
@@ -82,8 +82,38 @@ And to make sure it will make sense outside a single category I will do approxim
  - [ ] ? unknown #5
  - [ ] ? unknown #6
 	
+## other categories which are high priority for me
 
-resources: 
+ * text editors
+ * determining file/directory size
+ * file copying, mirroring, archiving, backup
+	* local
+	* remote
+ * compression, decompression
+ * file managers
+ * navigating filesystem (`cd`-like)
+ * help (`tldr`-like)
+ * the basic text manipulation tools (`cut` etc)
+ * tools that are modern replacements for classics (`bat` for `cat` etc)
+
+
+# resources: 
 
 * [List of GNU packages - Wikipedia](https://en.wikipedia.org/wiki/List_of_GNU_packages)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
